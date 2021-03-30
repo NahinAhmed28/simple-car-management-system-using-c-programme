@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1502824731 source:d:\2nd semister\cse program\coding\nahin project c\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
