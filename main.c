@@ -26,7 +26,7 @@ int main()
     printf("                                   3.Search a car \n");
     printf("                                   4.Delete a car \n");
     printf("                                   5.Edit a car details\n");
-    printf("                                    Your option :");
+    printf("                           Enter a number to select any option:\t");
 
     int option;
     scanf("%d",&option);
