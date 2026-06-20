@@ -1,33 +1,30 @@
 # Simple Car Management System Using C Programme
 
-Simple Car Management System is a C programming project for managing car records through a console-style workflow. It is useful as a small academic or practice project for file handling, menu design, and structured program logic in C.
+Simple Car Management System is a C console application for managing car records.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/simple-car-management-system-using-c-programme`
-- Default branch: `main`
-- Visibility: public
-- Project type: C console application
-- Main focus: car record management
+- Console menu for car-management actions
+- Create, view, update, and delete style record workflows
+- File or memory-based record handling depending on implementation
+- Lightweight academic C programming structure
+
+## Modules
+
+- Menu module: command selection and user prompts
+- Car record module: fields, validation, and record operations
+- Storage module: file handling or in-memory arrays
+- Utility module: formatting, search, and input helpers
+
+## System Architecture
+
+The program follows a procedural console architecture. `main` or a menu loop receives user commands, record functions process car data, and storage helpers persist or retrieve records. The application runs locally in a terminal and does not require a server or database.
 
 ## Getting Started
-
-Clone the repository and compile the C source file with a local C compiler.
 
 ```bash
 git clone https://github.com/NahinAhmed28/simple-car-management-system-using-c-programme.git
 cd simple-car-management-system-using-c-programme
-```
-
-Example compile command:
-
-```bash
 gcc *.c -o car-management
 ./car-management
 ```
-
-On Windows, run the generated executable from your terminal or IDE.
-
-## Notes
-
-Update this README with the exact source filename, menu options, and data-file format if those details change.
